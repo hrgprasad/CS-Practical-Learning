@@ -1,0 +1,33 @@
+/* -moz-box-shadow and -webkit-box-shadow are custom implementations of CSS3 box-shadow */
+
+@import "reset.css";
+
+
+/* Container Dimensions */
+div { float: left; height: 100px; margin: 20px; width: 100px; background: #fff; border: 1px solid #000; }
+ 
+/* Drop Shadow Class */
+div.red-shadow 
+{  
+  -moz-box-shadow :3px 5px 10px #f00; /* Firefox */
+  -webkit-box-shadow: 3px 5px 10px #f00; /* Safari & Google Chrome */
+}
+
+/* Drop Shadow Class */
+div.green-shadow 
+{ 
+  -moz-box-shadow :-3px -5px 10px #0f0 inset ; /* Firefox */
+  -webkit-box-shadow: 3px 5px 10px #0f0 ; /* Safari & Google Chrome */
+}
+
+/* Drop Shadow Class */
+div.blue-shadow 
+{ 
+  -moz-border-radius-bottomright : 50px ;/* Firefox */
+  -moz-box-shadow :3px 5px 10px #00f;  /* Firefox */
+  -webkit-border-bottom-right-radius:50px;/* Safari & Google Chrome */
+  -webkit-box-shadow: 3px 5px 10px #00f; /* Safari & Google Chrome */
+}
+
+
+

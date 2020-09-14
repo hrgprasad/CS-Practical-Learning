@@ -1,0 +1,18 @@
+/* Validated by W3C CSS Validation Service */
+
+ul li { color : red } 
+ol li { color : blue }
+
+/* Later...
+
+#menu li { color : green } 
+
+*/
+
+
+/* Later...
+
+#menu ul li { color : orange }
+#menu ol li { color : purple } 
+
+*/ 

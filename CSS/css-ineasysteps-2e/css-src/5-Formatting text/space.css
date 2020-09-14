@@ -1,0 +1,7 @@
+/* Validated by W3C CSS Validation Service */
+
+p { text-indent : 5em }
+
+span.spread { letter-spacing : 1em ; background : yellow }
+
+span.space { word-spacing : 1.5em ; background : aqua }

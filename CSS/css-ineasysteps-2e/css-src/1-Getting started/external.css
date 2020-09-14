@@ -1,0 +1,14 @@
+/* Master Style Sheet */
+
+/* Validated by W3C CSS Validation Service */
+
+h2 { color : blue; background : yellow }
+p  { color : red ; background : white } 
+
+
+/* Later...
+
+h2 { color : yellow ; background : blue }
+p  { color : white ; background : red }
+
+*/

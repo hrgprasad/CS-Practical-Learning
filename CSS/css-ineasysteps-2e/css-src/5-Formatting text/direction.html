@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<!-- Validated by W3C Markup Validator 0.8.5 -->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<title>Text Direction</title>
+
+<link rel="stylesheet" type="text/css" href="direction.css">
+
+</head>
+
+<body>
+
+<p>Hebrew "Congratulations" with mazel tov:
+ &#1502;&#1494;&#1500;  [mazel]  
+   + &#1496;&#1493;&#1489;  [tov] 
+     = &#1502;&#1494;&#1500;  &#1496;&#1493;&#1489;</p>
+<dl>
+<dt>LTR Default Direction (lines begin at the LEFT):</dt>
+<dd class = "ltr">&#1502;&#1494;&#1500; [mazel]
+&#1496;&#1493;&#1489; [tov]</dd>
+
+<dt>RTL Custom Direction (lines begin at the RIGHT):</dt>
+<dd class = "rtl">&#1502;&#1494;&#1500; [mazel] 
+&#1496;&#1493;&#1489; [tov]</dd>
+
+<dt>LTR Explicit Direction + BiDirectional Override:</dt>
+<dd class = "bidi-off ltr">No longer reads as mazel tov : 
+&#1502;&#1494;&#1500; &#1496;&#1493;&#1489;</dd>
+</dl>
+
+
+</body>
+</html> 

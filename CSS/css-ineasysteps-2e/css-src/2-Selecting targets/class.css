@@ -1,0 +1,6 @@
+/* Validated by W3C CSS Validation Service */
+
+.frame { border : 0.2em solid red }
+
+p.frame { border : 0.2em solid blue ; width : 20% }
+

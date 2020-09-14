@@ -1,0 +1,9 @@
+/* Validated by W3C CSS Validation Service */
+
+*[class~="animal"] { background : lime }
+
+*[lang|="es"] { color : red ; background : yellow }
+
+*[src|="ring"] { background : fuchsia }
+
+*[src|="box"] { background : aqua }

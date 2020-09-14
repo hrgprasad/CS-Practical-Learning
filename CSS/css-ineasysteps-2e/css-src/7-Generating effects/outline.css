@@ -1,0 +1,11 @@
+/* Validated by W3C CSS Validation Service */
+
+/* set margin, padding and size */
+h2,p	{ padding: 5px; width: 300px	}
+
+/* set borders and backgrounds */
+h2	{ border: 3px dashed blue;  background: aqua }
+p	{ border: 3px dashed green; background: yellow }
+
+/* set outlines */
+h2,span	{ outline: 2px solid red	}

@@ -1,0 +1,7 @@
+/* Validated by W3C CSS Validation Service */
+
+/* set in-focus highlights */
+
+input:focus	{ background: lime 	}
+
+a:focus		{ background: aqua 	}

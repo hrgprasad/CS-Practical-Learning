@@ -1,0 +1,11 @@
+/* Validated by W3C CSS Validation Service */
+
+span { background : yellow ; margin : 0 0 0 10em }
+
+p { background: url(tile.gif) fuchsia repeat ; height : 3.5em }
+
+p#x { background-repeat : repeat-x }
+
+p#y { background-repeat: repeat-y }
+
+p#no { background-repeat : no-repeat }

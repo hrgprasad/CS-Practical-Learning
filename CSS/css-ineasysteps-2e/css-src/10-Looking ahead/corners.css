@@ -1,0 +1,42 @@
+/* -moz-border-radius and -webkit-border-radius are custom implementations of CSS3 border-radius */
+
+@import "reset.css" ;
+
+/* Container Dimensions */
+div { float: left; height: 100px; margin: 10px; width: 100px; padding : 15px ; font: bold 1.2em  cursive; color : #ff0 }
+        
+/* Round All Corners Class */
+div.round 
+{ 
+  background-color: #f00;
+  -moz-border-radius: 50px;	/* FF */
+  -webkit-border-radius: 50px;	/* Safari,Google Chrome */
+}
+
+
+/* Round Individual Corners Class */
+div.indie 
+{	
+  background-color: #080;
+  -moz-border-radius-topleft: 50px;	/* FF */
+  -moz-border-radius-bottomleft: 50px;	/* FF */
+  -webkit-border-top-left-radius: 50px;		/* Safari,Google Chrome */
+  -webkit-border-bottom-left-radius: 50px;	/* Safari,Google Chrome */
+ }
+
+
+
+/* Round All Corners Class */
+div.ball 
+{ 
+  background-color: #00f; 
+  height: 120px; 
+  width: 120px;
+  padding : 0;
+  border : 5px solid navy ;
+  text-align: center;
+  -moz-border-radius: 65px ;	/* FF */
+  -webkit-border-radius: 65px;	/* Safari,Google Chrome */
+}
+
+a { color:aqua ; display:block; height:100% }

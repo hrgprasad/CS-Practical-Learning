@@ -1,0 +1,20 @@
+/* Validated by W3C CSS Validation Service */
+
+h1 
+{
+  color : red ;
+  font-family : "lucida handwriting", cursive ;
+}
+
+h2 { color : green ; }
+
+
+/* Later...
+h1 
+{
+  color : blue ;
+  font-family : "lucida handwriting", cursive ;
+}
+
+h2 { color : blue ; }
+*/

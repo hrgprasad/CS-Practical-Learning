@@ -1,0 +1,9 @@
+/* Validated by W3C CSS Validation Service */
+
+/* show boundaries */
+p { border: 1px solid black; height: 50px; background: yellow }
+
+/* set cursors... */
+p.help-cursor { cursor: help }
+
+p.arrow-cursor{ cursor: url(blue-arrow.cur), default }

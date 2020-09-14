@@ -1,0 +1,11 @@
+/* Validated by W3C CSS Validation Service */
+
+p,dd { background : yellow } 
+
+/* preserve whitespace in paragraphs   */
+p	  { white-space: pre }
+
+/* direction and bidi override classes */
+dd.ltr	  { direction: ltr	}
+dd.rtl	  { direction: rtl	}
+dd.bidi-off { unicode-bidi: bidi-override }
